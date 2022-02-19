@@ -2,135 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>mano_band</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSSban.css" type="text/css"/>
+    <title>CSS</title>
 </head>
 <body>
-    <h1> Pavadinimas </h1>
-    <table >
-        <tr>
-           <td><img src="pic/zvaig.bmp" width="300" alt=""/></td> 
-           <td><h2> tekstas h2</h2> <br> <p>paprast</p></td> 
-        </tr>
-        <tr>
-            <td><h3> tekstas h3</h3>  </td>
-        </tr>
-
-
-    </table>
-  
-  <hr/>
-
-    <form action="/" > <!-- action nurodomas su kuo dirbsim JS PHP-->
-      <label for="name">jusu vardas</label>
-      <input type="text" id="name" placeholder=" vardas "> <!--uzejus ant pavadinimo atsiduriam lauke--> 
-      <!-- placeholder bus matomas tekstas lauke-->
-
-      <br>
-      <br> <!-- gaunasi didesnis tarpelis-->
-      <input type="submit" value="siusti"> <!--mygtukas spec.-->
-      <br>
-      <br>
-      <input type="button"value=" mygtukas "> <!--tikras mygtukas-->
-      <br>
-      <br>
-      <label for="text"></label>
-      <textarea  id="text" cols="30" rows="10"></textarea>
-      <br>
-      <br>
-      <select name="name">
-        <option value="pirmas">pirmas</option>
-        <option value="antras">antras</option>
-        <option value="trecias">trecias</option>
-
-      </select>
-      <br>
-      <br>
-      <input id = "female" type="radio" name="pol" value="f">
-      <label for="female">moteris</label>
-      <input id = "male"  type="radio" name="pol" value="m">
-      <label for="male">vyras</label>
-      <!--id ir for vienodas vardas-->
-      <!--name, kai vienodas vardas aktyvus gali buti tik vienas-->
-
-    </form>
-    <hr>
-    <fieldset>
-      <legend>informacija</legend>
-      <label > email <br/>
-        <input type="text" name="email" /> </label> <br/>
-      <label > telefonas <br />
-        <input type="text" name="tel" />   </label> 
-    <br>
-    <br>
-
-    </fieldset>
-    <hr>
-    <h2> lentele</h2>
-   
-  <table > <!-- 1 storis-->
-    <!-- jei be border bus be remelio-->
-    
-      <tr>
-          <!--stulpeliu pavadinimai-->
-        <th>pav1.</th>
-        <th>pav2.</th>
-        <th>pav3.</th>
-        
-      </tr>
-    
-      <tr > <!--eilute-->
-
-          <td>primas st.</td> <!--stulpelis-->
-          <td>antras st. </td>
-          <td>terecias st.</td>
-      </tr>
-      
-      <tr>
-          <td>prirmo st.tekstas</td>
-          <td>antro st.tekstas</td>
-          <td>trecio st.tekstas</td>
-        
-      </tr>
-      <tr>
-          <!--stulpeliu apjungimas-->
-          <td colspan="3">jei vienas</td>
-      </tr>
-
-    </table>
-    <hr>
-    <h2>kita lentele</h2>
-    <table cellspacing = "15">
-      <tr>
-        <th width = "150"></th>
-        <th>pirmas </th>
-        <th>antras</th>
-        
-
-      </tr>
-      <tr>
-        <th>eilute 1 </th>
-        <th>1</th>
-        <th>1</th>
-      </tr>
-      <tr>
-        <th>eilute 2</th>
-        <th>2</th>
-        <th>2</th>
-      </tr>
-      <tr>
-        <th>eilute 3</th>
-        <th>3</th>
-        <th>3</th>
-      </tr>
-      
-        <tr>
-          <td></td>
-          <th>suma 1</th>
-          <th>suma 2 </th>
-        </tr>
-
-    </table>
- 
+    <h1>pavadinimas h1</h1>
+    <p>paprastas tekstas p <i>tkstas i</i> vel paprastas tekstas</p>
+    <h2>tekstas h2</h2>
 
 </body>
 </html>
+body {
+    font-family: Arial
+}
